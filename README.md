@@ -18,11 +18,21 @@
 
 - Functionality to add habits to our list
 
-# Card
+# Model user
+
+- name
+- username
+- password
+
+# Model Card
 
 - Title
 - Image
 - Counter
+
+# Summary
+
+- array of id's
 
 ## Bonus
 
@@ -30,3 +40,21 @@
 - Add functionality to the Cards
 - Categories for habits
 - Calendar display
+
+/\*
+
+User
+Habit --> CRUD
+-- title
+-- description
+-- picture
+-- category ["health", "sports", "nutrition"]
+
+Options:
+a. all habits are public (similar to what we did in class)
+b. habits are private for each user
+-- we need to store who created a habit ex. owner
+-- when we display the list of habits, we need to filter those for current user
+c. when signup, user can choose from list of habits + they can add their own
+
+\*/
